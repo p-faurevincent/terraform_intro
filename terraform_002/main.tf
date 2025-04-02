@@ -10,14 +10,14 @@ locals {
 }
 
 resource "aws_s3_bucket" "my_first_bucket" {
-  bucket        = "my-first-bucket-for-uggy"
+  bucket        = "my-first-bucket-for-company"
   force_destroy = true
 
   tags = local.tags
 }
 
 resource "aws_s3_bucket" "my_second_bucket" {
-  bucket        = "my-second-bucket-for-uggy"
+  bucket        = "my-second-bucket-for-company"
   force_destroy = true
 
   tags = local.tags

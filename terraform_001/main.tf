@@ -3,7 +3,7 @@ provider "aws" {
 }
 
 resource "aws_s3_bucket" "my_first_bucket" {
-  bucket        = "my-first-bucket-for-uggy"
+  bucket        = "my-first-bucket-for-company"
   force_destroy = true
 
   tags = {

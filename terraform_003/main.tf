@@ -10,14 +10,14 @@ locals {
 }
 
 resource "aws_s3_bucket" "my_first_bucket" {
-  bucket        = format("%s-first-bucket-for-uggy", var.creator_name)
+  bucket        = format("%s-first-bucket-for-company", var.creator_name)
   force_destroy = true
 
   tags = local.tags
 }
 
 resource "aws_s3_bucket" "my_second_bucket" {
-  bucket        = format("%s-second-bucket-for-uggy", var.creator_name)
+  bucket        = format("%s-second-bucket-for-company", var.creator_name)
   force_destroy = true
 
   tags = local.tags

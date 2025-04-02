@@ -2,15 +2,16 @@
 
 ## Init terraform stack
 ```bash
+
 terraform init
 ```
 
 ## Variable in file
 ```bash
-terraform plan --var-file dev.tfvars
+terraform plan 
 ```
 
 # Destroy Stack
 ```bash
-terraform destroy -var="creator_name=user"
+terraform destroy 
 ```
